@@ -1902,10 +1902,10 @@ nav a:hover {
 
 body {
   background-attachment: fixed;
-  background-image: url("../img/body-bg.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../img/body-bg1.jpg");
+  /*background-position: top center;*/
+  background-repeat: repeat;
+  background-size: contain;
   position: relative;
 }
 
@@ -1976,8 +1976,15 @@ body:after {
   background-image: -moz-linear-gradient(0deg, #e66587 0%, #f09458 100%);
   background-image: -webkit-linear-gradient(0deg, #e66587 0%, #f09458 100%);
   background-image: -ms-linear-gradient(0deg, #e66587 0%, #f09458 100%);
+
 }
 
+.banner-area{
+  background-image: url('../img/rainbow.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .p1-gradient-color, .single-feature .icon span {
   background: -webkit-linear-gradient(0deg, #e66587, #f09458);
   -webkit-background-clip: text;
