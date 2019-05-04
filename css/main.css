@@ -2399,7 +2399,7 @@ body:after {
   height: 60px;
   width: 60px;
   border-radius: 3px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
   position: relative;
 }
 
@@ -2407,7 +2407,7 @@ body:after {
   position: relative;
   z-index: 2;
   font-size: 24px;
-  color: #fff;
+  color: #000;
 }
 
 .single-widget .icon:after {
@@ -2436,15 +2436,15 @@ body:after {
 
 .single-widget .desc h6 {
   margin: 20px 0;
-  color: #fff;
+  color: #000;
 }
 
 .single-widget .desc .contact a {
-  color: #fff;
+  color: #000;
 }
 
 .single-widget .desc p {
-  color: #fff;
+  color: #000;
 }
 
 .single-widget:hover .icon {
